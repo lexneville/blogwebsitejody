@@ -9,23 +9,35 @@ h2 {
 }
 
 .background1{
-    background-image: url("images/amplifier-analogue-audio-744318.jpg");
-    background-size: cover;   
+    background: url("images/amplifier-analogue-audio-744318.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .background2{
-    background-image: url("images/audio-close-up-electronics-1389429.jpg");
-    background-size: cover;   
+    background: url("images/audio-close-up-electronics-1389429.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .background3{
-    background-image: url("images/audio-dj-mix-63703.jpg");
+    background: url("images/audio-dj-mix-63703.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;   
 }
 
 .background4{
-    background-image: url("images/background-bit-bytes-2004161.jpg");
-    background-size: cover;   
+    background: url("images/background-bit-bytes-2004161.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .centreText{
