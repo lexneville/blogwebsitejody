@@ -8,27 +8,26 @@ h2 {
     font-family: 'Blinker', sans-serif;
 }
 
-.body1{
+.background1{
     background-image: url("images/amplifier-analogue-audio-744318.jpg");
     background-size: cover;   
-    padding: 80px 100px 0px;
 }
 
-.body2{
+.background2{
     background-image: url("images/audio-close-up-electronics-1389429.jpg");
     background-size: cover;   
 }
 
-.body3{
+.background3{
     background-image: url("images/audio-dj-mix-63703.jpg");
     background-size: cover;   
 }
 
-.body4{
+.background4{
     background-image: url("images/background-bit-bytes-2004161.jpg");
     background-size: cover;   
 }
 
-.paraUnits{
+.centreText{
     text-align: center;
 }
