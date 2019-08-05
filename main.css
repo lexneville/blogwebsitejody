@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Blinker&display=swap');
 
+h1 {
+    font-family: 'Blinker', sans-serif;
+}
+
+h2 {
+    font-family: 'Blinker', sans-serif;
+}
 
 .body1{
     background-image: url("images/amplifier-analogue-audio-744318.jpg");
@@ -19,4 +27,8 @@
 .body4{
     background-image: url("images/background-bit-bytes-2004161.jpg");
     background-size: cover;   
+}
+
+.paraUnits{
+    text-align: center;
 }
