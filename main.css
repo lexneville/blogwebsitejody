@@ -14,6 +14,11 @@ h2 {
     font-size: 40px;
 }
 
+h3 {
+    font-family: 'Blinker', sans-serif;
+    font-size: 40px;
+}
+
 .mainPara {
     font-family: 'Blinker', sans-serif;
     font-size: 26px;
@@ -28,7 +33,7 @@ h2 {
     padding-right: 400px; 
 }
 
-.background1{
+.backgroundMixDesk{
     background: url("images/amplifier-analogue-audio-744318.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -36,7 +41,7 @@ h2 {
     background-size: cover;
 }
 
-.background2{
+.backgroundTurntable{
     background: url("images/audio-close-up-electronics-1389429.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -44,7 +49,7 @@ h2 {
     background-size: cover;
 }
 
-.background3{
+.backgroundMixer{
     background: url("images/audio-dj-mix-63703.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -52,7 +57,7 @@ h2 {
     background-size: cover;   
 }
 
-.background4{
+.backgroundCode{
     background: url("images/background-bit-bytes-2004161.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -60,8 +65,16 @@ h2 {
     background-size: cover;
 }
 
-.background5{
+.backgroundMap{
     background: url("images/map-manchester.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.backgroundBee{
+    background: url("images/LexLogo1080.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
