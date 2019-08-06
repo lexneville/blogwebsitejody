@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Blinker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap');
+
+.bold{
+    font-weight: 800;
+}
 
 .shadow1{
     text-shadow: 1px 1px rgb(135, 135, 135);
@@ -6,17 +10,20 @@
 
 h1 {
     font-family: 'Blinker', sans-serif;
-    font-size: 50px;
+    font-size: 80px;
+    font-weight: 800;
 }
 
 h2 {
     font-family: 'Blinker', sans-serif;
     font-size: 40px;
+    font-weight: 400;
 }
 
 h3 {
     font-family: 'Blinker', sans-serif;
     font-size: 40px;
+    font-weight: 400;
 }
 
 .mainPara {
