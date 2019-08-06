@@ -14,6 +14,15 @@
     width: 33.3%;
 
 }
+
+.navBar2{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    height: 80px;
+    justify-content: flex;
+
+}
  
 .navLeft{
     color: aliceblue;
@@ -23,7 +32,17 @@
     font-size: 30px;
     padding: 15px;
     text-align: center;
-    
+
+}
+
+.navRight{
+    color: aliceblue;
+    font-family: 'blinker', sans-serif; 
+    background-color: black;
+    width: 100%;
+    font-size: 30px;
+    padding: 15px;
+    text-align: center;
 }
 
 .bold{
