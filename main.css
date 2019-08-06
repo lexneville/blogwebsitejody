@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap');
 
+.navBar{
+    display: flex;
+    flex-direction: row;
+
+}
+ 
+.navLeft{
+    color: black;
+    width: 33.3%;
+    text-align: center;
+    
+}
+
 .bold{
     font-weight: 800;
 }
