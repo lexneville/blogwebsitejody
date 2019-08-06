@@ -88,6 +88,14 @@ h3 {
     background-size: cover;
 }
 
+.backgroundTitan{
+    background: url("images/Titan_computer.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .centreText{
     text-align: center;
 }
