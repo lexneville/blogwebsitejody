@@ -26,6 +26,10 @@
 
 }
 
+.heading{
+    font-size: 34px;
+}
+
 .bold{
     font-weight: 800;
 }
@@ -56,14 +60,14 @@ h3 {
     font-family: 'Blinker', sans-serif;
     font-size: 26px;
     padding-left: 150px;
-    padding-right: 150px; 
+    padding-right: 50px; 
 }
 
 .mapPara {
     font-family: 'Blinker', sans-serif;
     font-size: 26px;
     padding-left: 150px;
-    padding-right: 400px; 
+    padding-right: 150px; 
 }
 
 .backgroundMixDesk{
