@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.flex{
+    display: flex;
+}
+
 .zeroMargin{
     margin: 0px;
 }
@@ -22,9 +26,8 @@
     display: flex;
     flex-direction: row;
     position: fixed;
-    height: 160px;
+    height: 60px;
     width: 100%;
-    border: 0px;
     background-color: black;
 
 }
@@ -32,10 +35,8 @@
 .nav1{
     color: white;
     font-family: 'blinker', sans-serif; 
-    border: 0px;
     width: 100%;
     font-size: 26px;
-    margin: 0px;
     text-align: center;
 
 }
