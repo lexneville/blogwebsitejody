@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+.zeroMargin{
+    margin: 0px;
+}
+
+.backgroundMap{
+    background: url("images/map-manchester.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.centreText{
+    text-align: center;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    height: 160px;
+    width: 100%;
+    border: 0px;
+    background-color: black;
+
+}
+
+.nav1{
+    color: white;
+    font-family: 'blinker', sans-serif; 
+    border: 0px;
+    width: 100%;
+    font-size: 26px;
+    margin: 0px;
+    text-align: center;
+
+}
