@@ -1,82 +1,60 @@
-
-
-.flex-container  {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: black;
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0;
 }
 
-.logo {
-  margin: 0 0 0 10px;
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbarL {
+  background-color: black;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 72px;
+  left: 0px;
+}
+
+.navbarR {
+  background-color: black;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 71px;
+  Right: 0px;
+}
+
+/* Style the links inside the navigation bar */
+.navbarL a {
   font-family: 'blinker', sans-serif;
-}
-    .logo a {
-      color: white;
-    }
-
-    .logo, .navigation {
-        list-style: none;
-        text-transform: uppercase;
-    }
-
-    .logo a, .navigation a {
-        text-decoration: none;
-        letter-spacing: 5px;
-    }
-
-.navigation  {
-  display: flex;
-}
-
-.navigation a {
+  float: left;
   display: block;
-  padding: 20px;
-  color: white;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 13px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbarR a {
   font-family: 'blinker', sans-serif;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 13px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-.navigation a:hover {
-    background: gray;
+/* Change the color of links on hover */
+.navbarL a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-/* *********** media queries *********** */
-@media all and (max-width: 990px) {
-  .flex-container {
-    flex-direction: column;
-  }
-  
-  .logo {
-  margin: 10px 0 0 0;
-}
-  
-  .navigation  {
-    width: 100%;
-    justify-content: space-around;
-  }
+.navbarR a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-
-/* ****** ****** */
-@media all and (max-width: 600px) {
- 
-  .logo {
-    margin: 30px, 0;
-    align-self: left; /* align the logo to the left side of 'flex-container' */
-}
-  
-  .navigation {
-    flex-direction: column;
-  }
-  
-  .navigation a { 
-    text-align: center; 
-    padding: 10px;
-    border-top: 1px solid black; 
-    border-bottom: 1px solid black; 
-  }
-  
-  .navigation li:last-of-type a {
-    border-bottom: none;
-  }
-}
