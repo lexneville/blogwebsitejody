@@ -136,6 +136,14 @@ h3 {
     padding-right: 150px; 
 }
 
+.pQuotes{
+  font-size: 60px;
+  font-family: 'blinker', sans-serif;
+  padding-top: 200px;
+  padding-left: 200px;
+  padding-right: 100px;
+}
+
 .backgroundMixDesk{
     background: url("images/amplifier-analogue-audio-744318.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
