@@ -7,6 +7,12 @@
     padding: 0px;
     margin: 0;
 }
+
+.contacts{
+  font-family: 'blinker', sans-serif;
+  font-size: 40px;
+}
+
 h2 {
   font-family: 'Blinker', sans-serif;
   font-size: 40px;
@@ -81,6 +87,10 @@ h2 {
       flex-direction: column;
     }
 
+    .contacts{
+      font-size: 30px;
+    }
+
     .pQuotes{
       padding-top: 175px;
 
@@ -116,6 +126,11 @@ h2 {
       align-self: left; 
       text-align: center
     }
+
+    .contacts{
+      font-size: 20px;
+    }
+
     .pQuotes{
       padding-top: 300px;
 
