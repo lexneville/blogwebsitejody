@@ -7,17 +7,36 @@
     padding: 0px;
     margin: 0;
 }
+h2 {
+  font-family: 'Blinker', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.mainPara {
+  font-family: 'Blinker', sans-serif;
+  font-size: 26px;
+  padding-left: 150px;
+  padding-right: 150px; 
+}
 
 .flex-container  {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: black;
+    position: fixed;
+    width: 100%;
+    
+        
   }
   
   .logo {
     margin: 0 0 10px 10px;
     font-family: 'blinker', sans-serif;
+    
   }
       .logo a {
         color: white;
@@ -48,30 +67,56 @@
       background: gray;
   }
   
-  /* *********** media queries *********** */
   @media all and (max-width: 990px) {
     .flex-container {
       flex-direction: column;
     }
+
+    h2 {
+      font-size: 30px;
+      padding-top: 150px;
+  }
+
+  .mainPara {
+    font-family: 'Blinker', sans-serif;
+    font-size: 22px;
+    padding-left: 100px;
+    padding-right: 100px; 
+}
     
     .logo {
-    margin: 10px 0 0 0;
+    margin: 0;
   }
     
     .navigation  {
       width: 100%;
       justify-content: space-around;
     }
+    
   }
   
-  
-  /* ****** ****** */
-  @media all and (max-width: 600px) {
+  @media only screen and (max-width: 600px) {
    
     .logo {
       margin: 30px, 0;
-      align-self: left; /* align the logo to the left side of 'flex-container' */
+      align-self: left; 
       text-align: center
+    }
+
+    .mainPara {
+      font-family: 'Blinker', sans-serif;
+      font-size: 18px;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 61px; 
+  }
+
+    h2 {
+      padding-top: 250px;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 20px;
+      font-size: 24px;
     }
     
     .navigation {
@@ -88,6 +133,7 @@
     .navigation li:last-of-type a {
       border-bottom: none;
     }
+  
   }
 
 .centreText{
@@ -108,27 +154,14 @@
 
 h1 {
     font-family: 'Blinker', sans-serif;
-    font-size: 54px;
+    font-size: 50px;
     font-weight: 800;
-}
-
-h2 {
-    font-family: 'Blinker', sans-serif;
-    font-size: 40px;
-    font-weight: 400;
 }
 
 h3 {
     font-family: 'Blinker', sans-serif;
     font-size: 40px;
     font-weight: 400;
-}
-
-.mainPara {
-    font-family: 'Blinker', sans-serif;
-    font-size: 26px;
-    padding-left: 150px;
-    padding-right: 50px; 
 }
 
 .mapPara {
@@ -139,11 +172,10 @@ h3 {
 }
 
 .pQuotes{
-  font-size: 60px;
+  padding:  10vw ;
+  font-size: 5.1vw; /* */
   font-family: 'blinker', sans-serif;
-  padding-top: 100px;
-  padding-left: 300px;
-  padding-right: 300px;
+
 }
 
 .navbarL {
@@ -151,7 +183,7 @@ h3 {
   overflow: hidden;
   position: fixed;
   bottom: 0;
-  width: 64px;
+  width: 90px;
   left: 0px;
 }
 
@@ -160,20 +192,19 @@ h3 {
   overflow: hidden;
   position: fixed;
   bottom: 0;
-  width: 64px;
+  width: 90px;
   Right: 0px;
 }
 
-/* Style the links inside the navigation bar */
 .navbarL a {
   font-family: 'blinker', sans-serif;
   float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 13px;
+  padding: 12px 13px 13px 13px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 30px;
 }
 .navbarR a {
   font-family: 'blinker', sans-serif;
@@ -181,9 +212,9 @@ h3 {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 13px;
+  padding: 12px 13px 13px 13px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 30px;
 }
 
 .navbarL a:hover {
