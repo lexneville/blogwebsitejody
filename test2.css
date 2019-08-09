@@ -16,9 +16,7 @@ h2 {
 }
 
 .pQuotes{
-  padding-top: 150px;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding:  150px ;
   font-size: 5.1vw; /* */
   font-family: 'blinker', sans-serif;
 
@@ -81,11 +79,6 @@ h2 {
       flex-direction: column;
     }
 
-    .pQuotes{
-      padding-top: 175px;
-
-    }
-
     h2 {
       font-size: 30px;
       padding-top: 150px;
@@ -96,7 +89,7 @@ h2 {
     font-size: 22px;
     padding-left: 100px;
     padding-right: 100px; 
-  }
+}
     
     .logo {
     margin: 0;
@@ -116,10 +109,6 @@ h2 {
       align-self: left; 
       text-align: center
     }
-    .pQuotes{
-      padding-top: 300px;
-
-    }
 
     .mainPara {
       font-family: 'Blinker', sans-serif;
@@ -127,7 +116,7 @@ h2 {
       padding-left: 50px;
       padding-right: 50px;
       padding-bottom: 61px; 
-    }
+  }
 
     h2 {
       padding-top: 250px;
